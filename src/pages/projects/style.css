@@ -1,0 +1,80 @@
+.project__wrapper {
+    margin-top: 100px;
+}
+
+.react__projects,
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.projects {
+    grid-gap: 30px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.showcase {
+    position: relative;
+}
+
+.showcase p {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    display: none;
+}
+
+.showcase:hover .overlay {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.5s ease;
+    background-color: var(--primary);
+}
+
+.overlay__text {
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.ds__card {
+    border: 1px solid var(--secondary);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.ds__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+    .react__projects,
+    .projects {
+        display: block;
+    }
+    .projects {
+        width: 95%;
+    }
+    .project__wrapper {
+        margin-top: 50px;
+    }
+}
