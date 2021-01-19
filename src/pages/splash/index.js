@@ -14,7 +14,7 @@ const SplashScreen = ({ history }) => {
   }, []);
 
   return !splash ? (
-    <Redirect to="/home" />
+    window.location.replace("/home")
   ) : (
     <div className="splash__wrapper">
       <div className="splash">
