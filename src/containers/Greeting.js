@@ -13,7 +13,7 @@ const GreetingContainer = ({ greeting }) => {
         <h1>{greeting.title} 👋</h1>
         <p className="text--light">{greeting.subTitle}</p>
         <SocialMedia />
-        <Button className="button--global" size="sm">
+        <Button className="button--global" size="sm" href={greeting.resumeLink}>
           View my resume
         </Button>
       </div>
