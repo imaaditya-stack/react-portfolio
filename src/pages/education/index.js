@@ -2,12 +2,15 @@ import React from "react";
 import { Image } from "react-bootstrap";
 import EducationCard from "../../components/EducationCard";
 import CertCard from "../../components/CertCard";
+import Header from "../../shared/Header";
+import Footer from "../../shared/Footer";
 import { achievementSection } from "../../portfolio";
 import "./style.css";
 
 const Education = () => {
   return (
     <>
+      <Header />
       <div
         className="education__wrapper wrapper--global"
         style={{ overflow: "hidden" }}
@@ -65,6 +68,7 @@ const Education = () => {
           })}
         </div>
       </div>
+      <Footer />
     </>
   );
 };
