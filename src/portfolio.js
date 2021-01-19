@@ -172,8 +172,8 @@ const techStack = {
 const reactProjects = {
   title: "React Js Projects",
   projects: [
-    { title: "Amazon Clone", image: "amazon1.png", link: "" },
-    { title: "Netflix Clone", image: "netflix1.png", link: "" },
+    { title: "Amazon Clone", image: "amazon.png", link: "" },
+    { title: "Netflix Clone", image: "netflix.png", link: "" },
     { title: "Reddit Clone", image: "reddit.png", link: "" },
     { title: "Spotify Clone", image: "spotify.png", link: "" },
   ],

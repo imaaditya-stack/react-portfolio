@@ -1,6 +1,6 @@
 import React from "react";
 import { Nav, Navbar } from "react-bootstrap";
-import "./style.css";
+import "./Header.css";
 
 const Header = () => {
   return (
@@ -13,7 +13,7 @@ const Header = () => {
           <Nav.Link href="/education">Education</Nav.Link>
           <Nav.Link href="/experience">Experience</Nav.Link>
           <Nav.Link href="/projects">Projects</Nav.Link>
-          <Nav.Link href="#contact">Contact Me</Nav.Link>
+          <Nav.Link href="/contact">Contact Me</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

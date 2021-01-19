@@ -5,6 +5,7 @@ import Education from "./pages/education";
 import Header from "./shared/Header";
 import Experience from "./pages/experience";
 import Projects from "./pages/projects";
+import Contact from "./pages/contact";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
           <Route path="/education" component={Education} />
           <Route path="/experience" component={Experience} />
           <Route path="/projects" component={Projects} />
+          <Route path="/contact" component={Contact} />
         </Switch>
       </Router>
     </>

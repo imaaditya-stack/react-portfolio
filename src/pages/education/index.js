@@ -26,6 +26,12 @@ const Education = () => {
         <center>
           <h1 className="my-5">{achievementSection.title}</h1>
         </center>
+        <div className="education__svg text-center">
+          <Image
+            src={require("../../assets/images/cert.svg").default}
+            className="img-fluid"
+          />
+        </div>
         <div className="certification__wrapper">
           {achievementSection.achievementsCards.map((ach) => {
             return (

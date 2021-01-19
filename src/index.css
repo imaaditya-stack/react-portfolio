@@ -15,9 +15,9 @@
 }
 
 :root {
-    --primary: #1a1a2e !important;
+    --primary: #171c28 !important;
     --text: #f0f8ff !important;
-    --secondary: #e94560 !important;
+    --secondary: #55198b !important;
 }
 
 * {
