@@ -7,7 +7,7 @@ const ReactProjects = () => {
   return (
     <>
       <Heading label={reactProjects.title} margin="mb-5" />
-      <div className="react__projects">
+      <div className="react__projects grid--global">
         {reactProjects.projects.map((item) => {
           return <ReactProjectCard image={item.image} link={item.link} />;
         })}

@@ -6,11 +6,22 @@ import "./style.css";
 
 const Contact = () => {
   return (
-    <div className="contact__wrapper wrapper--global">
-      <div className="contact__svg">
+    <div
+      className="contact__wrapper wrapper--global grid--global"
+      style={{ overflow: "hidden" }}
+    >
+      <div
+        className="contact__svg"
+        data-aos="slide-right"
+        data-aos-duration="1500"
+      >
         <Image src={require("../../assets/images/contact.svg").default} />
       </div>
-      <div className="contact__info my-auto">
+      <div
+        className="contact__info my-auto"
+        data-aos="slide-left"
+        data-aos-duration="1500"
+      >
         <h1>{contactInfo.title}</h1>
         <p>{contactInfo.subtitle}</p>
         <Image

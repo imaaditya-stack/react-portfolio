@@ -4,7 +4,11 @@ import { Image, Button } from "react-bootstrap";
 
 const GreetingContainer = ({ greeting }) => {
   return (
-    <div className="greeting__wrapper grid--global">
+    <div
+      className="greeting__wrapper grid--global"
+      data-aos="fade-up"
+      data-aos-duration="1000"
+    >
       <div className="greeting__content my-auto">
         <h1>{greeting.title} 👋</h1>
         <p className="text--light">{greeting.subTitle}</p>

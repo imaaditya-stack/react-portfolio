@@ -13,12 +13,6 @@
     width: 80%;
 }
 
-.react__projects,
-.projects {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
 .projects {
     grid-gap: 30px;
     width: 90%;
@@ -72,11 +66,6 @@
 }
 
 @media only screen and (max-width: 768px) {
-    .react__projects,
-    .projects,
-    .projects__overview {
-        display: block;
-    }
     .projects__overview {
         margin-top: 50px;
         text-align: center;

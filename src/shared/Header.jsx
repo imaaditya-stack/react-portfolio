@@ -4,7 +4,13 @@ import "./Header.css";
 
 const Header = () => {
   return (
-    <Navbar expand="lg" className="py-lg-3" variant="dark">
+    <Navbar
+      expand="lg"
+      className="py-lg-3"
+      variant="dark"
+      data-aos="fade-down"
+      data-aos-duration="1000"
+    >
       <Navbar.Brand href="/">Aaditya Ghag</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">

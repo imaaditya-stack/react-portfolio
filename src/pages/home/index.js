@@ -9,7 +9,9 @@ const Home = () => {
     <div className="home__wrapper wrapper--global">
       <GreetingContainer greeting={greeting} />
       <center>
-        <h1>What I Do?</h1>
+        <h1 data-aos="zoom-in" data-aos-duration="1500">
+          What I Do?
+        </h1>
       </center>
       <SkillsContainer svg="FullStack.svg" skills={FullStack} />
       <SkillsContainer svg="DataScience.svg" skills={DataScience} />

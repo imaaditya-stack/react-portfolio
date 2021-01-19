@@ -6,16 +6,21 @@ import "./style.css";
 
 const Experience = () => {
   return (
-    <div className="exp__wrapper wrapper--global">
-      <div className="exp__header text-center mb-5">
-        <h1>Experience</h1>
-        <h4>Work and Internship</h4>
-      </div>
-      <div className="exp__svg text-center mb-5">
-        <Image
-          src={require("../../assets/images/Experience.svg").default}
-          className="img-fluid"
-        />
+    <div
+      className="exp__wrapper wrapper--global"
+      style={{ overflow: "hidden" }}
+    >
+      <div data-aos="fade-up" data-aos-duration="1500">
+        <div className="exp__header text-center mb-5">
+          <h1>Experience</h1>
+          <h4>Work and Internship</h4>
+        </div>
+        <div className="exp__svg text-center mb-5">
+          <Image
+            src={require("../../assets/images/Experience.svg").default}
+            className="img-fluid"
+          />
+        </div>
       </div>
       <div className="exp__info my-auto">
         {workExperiences.map((exp) => {

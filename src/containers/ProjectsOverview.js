@@ -3,7 +3,11 @@ import { Image } from "react-bootstrap";
 
 const ProjectsOverview = ({ title, subtitle }) => {
   return (
-    <div className="projects__overview grid--global">
+    <div
+      className="projects__overview grid--global"
+      data-aos="fade-up"
+      data-aos-duration="1500"
+    >
       <div className="projects__svg">
         <Image src={require("../assets/images/Projects.svg").default} />
       </div>
