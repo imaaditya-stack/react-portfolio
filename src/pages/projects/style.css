@@ -1,5 +1,16 @@
 .project__wrapper {
     margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+.projects__overview {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.projects__svg>img {
+    width: 80%;
 }
 
 .react__projects,
@@ -54,27 +65,40 @@
     text-align: center;
 }
 
-.ds__card {
-    border: 1px solid var(--secondary);
+.project__card {
+    border: 2px solid var(--secondary);
     padding: 20px;
     border-radius: 5px;
 }
 
-.ds__wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 30px;
-}
-
 @media only screen and (max-width: 768px) {
     .react__projects,
-    .projects {
+    .projects,
+    .projects__overview {
         display: block;
+    }
+    .projects__overview {
+        margin-top: 50px;
+        text-align: center;
+        margin-bottom: 50px;
     }
     .projects {
         width: 95%;
     }
+    .projects__svg>img {
+        margin-bottom: 55px;
+        width: 70%;
+    }
     .project__wrapper {
         margin-top: 50px;
+    }
+    .project__card {
+        margin-bottom: 50px;
+    }
+    .project__card h5 {
+        font-size: 18px !important;
+    }
+    .project__card p {
+        font-size: 15px !important;
     }
 }

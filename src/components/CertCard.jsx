@@ -7,8 +7,8 @@ const CertCard = ({ title, reference, link }) => {
       <center>
         <h5>{title}</h5>
         <p className="text--light">{reference}</p>
-        <Button className="button--global" href={link}>
-          View Certificate
+        <Button className="button--global" href={link} size="sm">
+          Certificate
         </Button>
       </center>
     </div>

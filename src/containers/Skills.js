@@ -4,7 +4,7 @@ import { Image } from "react-bootstrap";
 
 const SkillsContainer = ({ svg, skills }) => {
   return (
-    <div className="skills__wrapper">
+    <div className="skills__wrapper grid--global">
       <div className="skills__svg text-center">
         <Image
           src={require(`../assets/images/${svg}`).default}

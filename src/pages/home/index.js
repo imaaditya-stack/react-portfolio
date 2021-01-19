@@ -6,7 +6,7 @@ import "./style.css";
 
 const Home = () => {
   return (
-    <div className="home__wrapper">
+    <div className="home__wrapper wrapper--global">
       <GreetingContainer greeting={greeting} />
       <center>
         <h1>What I Do?</h1>

@@ -6,6 +6,7 @@ import Header from "./shared/Header";
 import Experience from "./pages/experience";
 import Projects from "./pages/projects";
 import Contact from "./pages/contact";
+import Footer from "./shared/Footer";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
           <Route path="/contact" component={Contact} />
         </Switch>
       </Router>
+      <Footer />
     </>
   );
 };

@@ -1,5 +1,11 @@
+.navbar {
+    margin: 0 20px;
+}
+
 .navbar-brand {
     font-family: "Agustina Regular";
+    font-size: 40px !important;
+    margin: 20px 0;
 }
 
 .nav-link {
@@ -9,4 +15,25 @@
 .nav-link:hover {
     color: var(--secondary) !important;
     transition: 0.2s ease-in-out;
+}
+
+.navbar-toggler {
+    outline: none !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar-brand {
+        font-size: 25px !important;
+        padding-top: 20px !important;
+        margin: 10px 0 !important;
+    }
+    .navbar {
+        margin: 0;
+    }
+    .nav-link {
+        margin-left: 0;
+        text-align: center;
+    }
 }

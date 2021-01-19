@@ -15,7 +15,7 @@
 }
 
 :root {
-    --primary: #171c28 !important;
+    --primary: #121720 !important;
     --text: #f0f8ff !important;
     --secondary: #55198b !important;
 }
@@ -31,6 +31,18 @@ html {
     color: var(--text) !important;
 }
 
+.wrapper--global {
+    width: 90%;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grid--global {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 .button--global {
     background-color: var(--secondary) !important;
     outline: none !important;
@@ -44,8 +56,8 @@ html {
 .button--global:hover,
 .button--global:focus,
 .button--global:active {
-    background-color: #ee1e40 !important;
-    transition: 0.3s ease-in-out;
+    background-color: #663c8b !important;
+    transition: 0.2s ease-in-out;
 }
 
 .text--light {
@@ -66,5 +78,13 @@ html {
     }
     p {
         font-size: 16px !important;
+    }
+    .wrapper--global {
+        display: block;
+        margin-top: 50px;
+        width: 95%;
+    }
+    .grid--global {
+        display: block;
     }
 }

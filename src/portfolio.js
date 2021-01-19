@@ -107,13 +107,18 @@ const Cloud = {
   skills: [
     "⚡ Exploring multiple cloud platforms and Docker",
     "⚡ Experience of working with AWS Services like EC2, S3, Amplify",
-    "⚡ Deploying scalable applications on AWS, Heroku platform",
+    "⚡ Deploying scalable applications on AWS, Heroku platform, Firebase",
   ],
   stack: [
     {
       skillName: "AWS",
       IconifyClassname: "simple-icons:amazonaws",
-      color: "#DCB120",
+      color: "#e47911",
+    },
+    {
+      skillName: "Firebase",
+      IconifyClassname: "simple-icons:firebase",
+      color: "#FFCB2B",
     },
     {
       skillName: "Heroku",
@@ -169,6 +174,12 @@ const techStack = {
 
 // Your top 3 work experiences
 
+const projectsOverview = {
+  title: "Projects",
+  subtitle:
+    "I love to use latest technology stack to develop projects. I have worked on projects from different domain such as Data Science, Deep Learning, Computer Vision. Also, I have worked on building web applications using Modern Front End Stack.",
+};
+
 const reactProjects = {
   title: "React Js Projects",
   projects: [
@@ -195,6 +206,12 @@ const dsProjects = {
       title: "Spam Filter For Quora Questions",
       description:
         "A Deep learning Model to detect whether a question asked on quora is spam or not using Natural Language Processing & LSTM Model",
+    },
+    {
+      url: "",
+      title: "Counterfeit Medicines Sales Prediction",
+      description:
+        "Built a predictive model using RandomForestRegressor for predicting sales figures given other information related to counterfeit medicine selling operations",
     },
   ],
 };
@@ -235,7 +252,6 @@ const achievementSection = {
       url:
         "https://drive.google.com/file/d/17rEimKGQfRsZUqd5j83DjmXMq3u8RdAu/view?usp=sharing",
     },
-
     {
       title: "CNN for Computer Vision with Keras and TensorFlow in Python",
       ref: "Udemy",
@@ -279,9 +295,8 @@ const blogSection = {
 };
 
 const contactInfo = {
-  title: "Contact Me ☎️",
+  title: "Contact Me",
   subtitle: "Discuss a project or want to say hi? My Inbox is open for all :)",
-  email_address: "aadityaghag11@gmail.com",
 };
 
 export {
@@ -292,6 +307,7 @@ export {
   Cloud,
   techStack,
   workExperiences,
+  projectsOverview,
   reactProjects,
   dsProjects,
   projects,

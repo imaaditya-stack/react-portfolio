@@ -1,14 +1,17 @@
 import React from "react";
 import ReactProjects from "../../containers/ReactProjects";
 import ProjectsContainer from "../../containers/Projects";
-import { dsProjects, projects } from "../../portfolio";
-import { Image } from "react-bootstrap";
+import ProjectsOverview from "../../containers/ProjectsOverview";
+import { projectsOverview, dsProjects, projects } from "../../portfolio";
 import "./style.css";
 
 const Projects = () => {
   return (
     <div className="project__wrapper">
-      <Image src={require("../../assets/images/Projects.svg").default} />
+      <ProjectsOverview
+        title={projectsOverview.title}
+        subtitle={projectsOverview.subtitle}
+      />
       <ReactProjects />
       <ProjectsContainer projects={dsProjects} />
       <ProjectsContainer projects={projects} />

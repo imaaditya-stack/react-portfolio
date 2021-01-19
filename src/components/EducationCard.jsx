@@ -8,7 +8,7 @@ const EducationCard = () => {
         <p className="mb-2 text--light">KGCE, Mumbai University</p>
         <p className="mb-0 text--light">CGPA ~ 8.45</p>
       </div>
-      <p className="mb-0 text--light">August 2015 - March 2019</p>
+      <p className="mb-0 text--light ed__year">August 2015 - March 2019</p>
     </div>
   );
 };

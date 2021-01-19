@@ -1,0 +1,36 @@
+.contact__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.my-picture {
+    border-radius: 50%;
+    height: 250px;
+    width: 270px;
+    border: 4px solid #6c63ff;
+    box-shadow: 0 30px 30px -30px #000;
+}
+
+.contact__svg>img {
+    width: 80%;
+}
+
+.contact__info img {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+    .contact__wrapper {
+        display: block;
+    }
+    .my-picture {
+        width: 230px;
+        height: 200px;
+    }
+    .contact__svg>img {
+        margin-bottom: 50px;
+    }
+}
