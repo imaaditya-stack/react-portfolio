@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import Typing from "react-typing-animation";
-import { Redirect } from "react-router-dom";
 import "./style.css";
 
 const SplashScreen = ({ history }) => {
