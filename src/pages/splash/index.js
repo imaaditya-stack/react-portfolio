@@ -12,19 +12,10 @@ const SplashScreen = ({ history }) => {
     return () => clearTimeout(timer);
   }, []);
 
-  const appHeight = () => {
-    document.documentElement.style.setProperty(
-      "--app-height",
-      `${window.innerHeight}px`
-    );
-  };
-  window.addEventListener("resize", appHeight);
-  appHeight();
-
   return !splash ? (
     window.location.replace("/home")
   ) : (
-    <div className="splash__wrapper">
+    <div className="vertically--centered--wrapper splash__wrapper">
       <div className="splash">
         <Typing hideCursor={true} speed={200}>
           <h1>Aaditya Ghag</h1>

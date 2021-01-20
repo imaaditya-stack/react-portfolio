@@ -6,8 +6,12 @@ import Experience from "./pages/experience";
 import Projects from "./pages/projects";
 import Contact from "./pages/contact";
 import SplashScreen from "./pages/splash";
+import PageNotFound from "./shared/PageNotFound";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const App = () => {
+  AOS.init({});
   return (
     <Router>
       <Switch>
@@ -17,6 +21,7 @@ const App = () => {
         <Route path="/experience" component={Experience} />
         <Route path="/projects" component={Projects} />
         <Route path="/contact" component={Contact} />
+        <Route path="*" component={PageNotFound} />
       </Switch>
     </Router>
   );

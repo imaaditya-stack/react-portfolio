@@ -1,0 +1,9 @@
+.pageNotFound--wrapper>img {
+    width: 35%;
+}
+
+@media only screen and (max-width: 768px) {
+    .pageNotFound--wrapper>img {
+        width: 80%;
+    }
+}

@@ -1,9 +1,5 @@
 .splash__wrapper {
-    height: 100vh;
     background-color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .splash__wrapper h1 {
@@ -40,11 +36,5 @@
         transform: scale(0);
         transform-origin: 50% 50%;
         border-radius: 100%;
-    }
-}
-
-@media only screen and (max-width: 768px) {
-    .splash__wrapper {
-        height: var(--app-height, 100vh);
     }
 }

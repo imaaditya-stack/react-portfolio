@@ -69,6 +69,13 @@ a {
     color: #fff !important;
 }
 
+.vertically--centered--wrapper {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
 @media only screen and (max-width: 768px) {
     .button--global {
         font-size: 15px !important;
@@ -91,5 +98,8 @@ a {
     }
     .grid--global {
         display: block;
+    }
+    .vertically--centered--wrapper {
+        height: var(--app-height, 100vh);
     }
 }
