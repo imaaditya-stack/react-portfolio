@@ -7,7 +7,12 @@ const CertCard = ({ title, reference, link }) => {
       <center>
         <h5>{title}</h5>
         <p className="text--light">{reference}</p>
-        <Button className="button--global" href={link} size="sm">
+        <Button
+          className="button--global"
+          href={link}
+          size="sm"
+          target="_blank"
+        >
           Certificate
         </Button>
       </center>

@@ -22,7 +22,8 @@ const socialMediaLinks = [
   },
   {
     id: "gmail",
-    link: "aadityaghag11@gmail.com",
+    link:
+      "https://mail.google.com/mail/?view=cm&fs=1&to=aadityaghag11@gmail.com",
     IconifyClassname: "simple-icons:google",
     bgColor: "#ea4335",
   },
@@ -33,7 +34,7 @@ const FullStack = {
   skills: [
     "⚡ Developing highly interactive Front end / User Interfaces for web applications",
     "⚡ Developing mobile applications using React Native",
-    "⚡ Creating REST APIs using Django, Flask & Fast Api Backend",
+    "⚡ Creating REST APIs using Django, Flask & Fast Api",
   ],
 
   stack: [
@@ -107,7 +108,7 @@ const Cloud = {
   skills: [
     "⚡ Exploring multiple cloud platforms and Docker",
     "⚡ Experience of working with AWS Services like EC2, S3, Amplify",
-    "⚡ Deploying scalable applications on AWS, Heroku platform, Firebase",
+    "⚡ Deploying web applications on AWS, Heroku platform, Firebase",
   ],
   stack: [
     {
@@ -177,16 +178,32 @@ const techStack = {
 const projectsOverview = {
   title: "Projects",
   subtitle:
-    "I love to use latest technology stack to develop projects. I have worked on projects from different domain such as Data Science, Deep Learning, Computer Vision. Also, I have worked on building web applications using Modern Front End Stack.",
+    "I love to use latest technology stack to develop projects. I have worked on projects from different domain such as Data Science, Deep Learning, Computer Vision. Also, I have worked on building web applications using Modern Front End and Back End Stack such as React JS, Django etc.",
 };
 
 const reactProjects = {
-  title: "React Js Projects",
+  title: "React JS Projects",
   projects: [
-    { title: "Amazon Clone", image: "amazon.png", link: "" },
-    { title: "Netflix Clone", image: "netflix.png", link: "" },
-    { title: "Reddit Clone", image: "reddit.png", link: "" },
-    { title: "Spotify Clone", image: "spotify.png", link: "" },
+    {
+      title: "Amazon Clone",
+      image: "amazon.png",
+      link: "https://github.com/imaaditya-stack/amazon-clone",
+    },
+    {
+      title: "Netflix Clone",
+      image: "netflix.png",
+      link: "https://github.com/imaaditya-stack/netflix-clone",
+    },
+    {
+      title: "Reddit Clone",
+      image: "reddit.png",
+      link: "https://github.com/imaaditya-stack/reddit-clone",
+    },
+    {
+      title: "Spotify Clone",
+      image: "spotify.png",
+      link: "https://github.com/imaaditya-stack/spotify-clone",
+    },
   ],
 };
 
@@ -208,7 +225,8 @@ const dsProjects = {
         "A Deep learning Model to detect whether a question asked on quora is spam or not using Natural Language Processing & LSTM Model",
     },
     {
-      url: "",
+      url:
+        "https://github.com/imaaditya-stack/Machine-Learning/tree/master/Regression/Counterfeit_Sales",
       title: "Counterfeit Medicines Sales Prediction",
       description:
         "Built a predictive model using RandomForestRegressor for predicting sales figures given other information related to counterfeit medicine selling operations",
@@ -226,7 +244,7 @@ const projects = {
         "A blog web application coded on an android device during the quarantine period using flask framework & also deployed on heroku platform",
     },
     {
-      url: "https://mahacovid19tracker.herokuapp.com/",
+      url: "https://github.com/imaaditya-stack/Covid19TrackerApi",
       title: "Covid-19 Live Cases Tracker Web App",
       description:
         "A web application to track live cases of COVID-19 in major cities of Maharashtra and all over India using Django and Web Scraping",
@@ -242,7 +260,7 @@ const achievementSection = {
     {
       title:
         "Post Graduate Certification in Data Science & Artificial Intelligence",
-      ref: "Edvance Edventures",
+      ref: "Edvancer Edventures",
       url:
         "https://drive.google.com/file/d/1JNFJSWKY22bXVDq5HLk4HltBj8NuPSvE/view?usp=sharing",
     },
@@ -257,39 +275,6 @@ const achievementSection = {
       ref: "Udemy",
       url:
         "https://drive.google.com/file/d/10E4z_4KyShjjEWnt_RwUJODG8MB06kR-/view?usp=sharing",
-    },
-  ],
-};
-
-// Blogs Section
-
-const blogSection = {
-  title: "Blogs",
-  subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-
-  blogs: [
-    {
-      url:
-        "https://tektechme.blogspot.com/2019/11/7-answers-to-most-frequently-asked.html",
-      title:
-        "7 Answers to Most Frequently Asked Questions About Machine Learning",
-      description:
-        "Machine Learning (ML) term was first invented by Arthur Samuel in the late 1960s. He was an American pioneer in the field of computer gaming and Artificial Intelligence.",
-    },
-    {
-      url:
-        "https://tektechme.blogspot.com/2019/10/what-is-data-analytics-basics-explained.html",
-      title: "What is Data Analytics? Basics Explained",
-      description:
-        "According to an IBM Report, 2.5 billion gigabytes (GB) of data was generated every day in 2012. In future about 1.7 megabytes of new information will be created every second for every human being on the planet.",
-    },
-    {
-      url:
-        "https://tektechme.blogspot.com/2019/10/best-tools-for-front-end-designers.html",
-      title: "Best tools for Front End Designers",
-      description:
-        "Are you a Front End Developer or starting your journey in Front End Development? Are you a UI/UX Designer? Do you working on your college project of Website Designing? Do you want to make your website look more creative and user-friendly?",
     },
   ],
 };
@@ -312,6 +297,5 @@ export {
   dsProjects,
   projects,
   achievementSection,
-  blogSection,
   contactInfo,
 };

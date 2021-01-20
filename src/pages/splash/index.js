@@ -12,6 +12,15 @@ const SplashScreen = ({ history }) => {
     return () => clearTimeout(timer);
   }, []);
 
+  const appHeight = () => {
+    document.documentElement.style.setProperty(
+      "--app-height",
+      `${window.innerHeight}px`
+    );
+  };
+  window.addEventListener("resize", appHeight);
+  appHeight();
+
   return !splash ? (
     window.location.replace("/home")
   ) : (

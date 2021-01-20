@@ -12,7 +12,13 @@ const ProjectsContainer = ({ projects }) => {
         data-aos-duration="1500"
       >
         {projects.projects.map((item) => {
-          return <ProjectCard title={item.title} desc={item.description} />;
+          return (
+            <ProjectCard
+              title={item.title}
+              desc={item.description}
+              link={item.url}
+            />
+          );
         })}
       </div>
     </>

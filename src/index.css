@@ -64,6 +64,11 @@ html {
     color: #bbb !important;
 }
 
+a {
+    text-decoration: none !important;
+    color: #fff !important;
+}
+
 @media only screen and (max-width: 768px) {
     .button--global {
         font-size: 15px !important;

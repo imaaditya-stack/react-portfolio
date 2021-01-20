@@ -42,3 +42,9 @@
         border-radius: 100%;
     }
 }
+
+@media only screen and (max-width: 768px) {
+    .splash__wrapper {
+        height: var(--app-height, 100vh);
+    }
+}
