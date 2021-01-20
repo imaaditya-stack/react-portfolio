@@ -31,6 +31,7 @@
     }
     .greeting__wrapper {
         margin-top: 30px;
+        text-align: center;
     }
     .skills__wrapper {
         margin-bottom: 80px;

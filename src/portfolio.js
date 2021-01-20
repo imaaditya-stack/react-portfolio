@@ -71,8 +71,6 @@ const FullStack = {
   ],
 };
 
-// Your Skills Section
-
 const DataScience = {
   title: "Data Science & AI",
   skills: [
@@ -80,9 +78,6 @@ const DataScience = {
     "⚡ Experience of working with Object Detection, Image Classification and NLP projects",
     "⚡ Data collection using Web Scraping libraries like BeautifulSoup",
   ],
-
-  /* Make Sure You include correct Font Awesome Classname to view your icon
-https://Iconify.com/icons?d=gallery */
 
   stack: [
     {
@@ -150,30 +145,6 @@ const workExperiences = [
     duration: "January 2020 - June 2020",
   },
 ];
-
-const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
-  experience: [
-    {
-      Stack: "Frontend Development", //Insert stack or technology you have experience in
-      progressPercentage: "90%", //Insert relative proficiency in percentage
-    },
-    {
-      Stack: "Backend Development",
-      progressPercentage: "70%",
-    },
-    {
-      Stack: "Cloud & Deployment",
-      progressPercentage: "50%",
-    },
-    {
-      Stack: "Data Science & AI",
-      progressPercentage: "60%",
-    },
-  ],
-};
-
-// Your top 3 work experiences
 
 const projectsOverview = {
   title: "Projects",
@@ -290,7 +261,6 @@ export {
   DataScience,
   FullStack,
   Cloud,
-  techStack,
   workExperiences,
   projectsOverview,
   reactProjects,

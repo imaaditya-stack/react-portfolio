@@ -35,5 +35,6 @@
     .nav-link {
         margin-left: 0;
         text-align: center;
+        color: #bbb !important;
     }
 }

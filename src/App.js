@@ -11,7 +11,17 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 const App = () => {
+  const appHeight = () => {
+    document.documentElement.style.setProperty(
+      "--app-height",
+      `${window.innerHeight}px`
+    );
+  };
+  window.addEventListener("resize", appHeight);
+  appHeight();
+
   AOS.init({});
+
   return (
     <Router>
       <Switch>
