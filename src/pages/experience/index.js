@@ -22,7 +22,7 @@ const Experience = () => {
           <div className="exp__svg text-center mb-5">
             <Image
               src={require("../../assets/images/Experience.svg").default}
-              className="img-fluid"
+              className="img-fluid animate"
             />
           </div>
         </div>

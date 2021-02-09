@@ -4,7 +4,7 @@ const greeting = {
   subTitle:
     "A passionate Full Stack Developer and a Certified Data Scientist, prefer to keep learning and do interesting things that matter. I’m a fast learner, able to pick up new skills and juggle different projects and roles with relative ease.",
   resumeLink:
-    "https://drive.google.com/file/d/15UUx-MiGSMAmbT0PC9hbEf8G0uW0L9Vl/view?usp=sharing",
+    "https://drive.google.com/file/d/1d7FQTuOnlePK691wCopBTIpS-WT42068/view?usp=sharing",
 };
 
 const socialMediaLinks = [
