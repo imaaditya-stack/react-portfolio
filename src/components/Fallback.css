@@ -1,9 +1,0 @@
-.fallback>img {
-    width: 12%;
-}
-
-@media only screen and (max-width: 768px) {
-    .fallback__wrapper {
-        height: var(--app-height, 100vh);
-    }
-}
